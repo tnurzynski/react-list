@@ -1,0 +1,8 @@
+/.github
+/.next
+/dist
+/node_modules
+.env.local
+.npmrc
+package.json
+package-lock.json
