@@ -22,6 +22,7 @@ export default class Dashboard extends React.PureComponent<{}, IDashboardState> 
   }
 
   componentDidMount() {
+    // symulacja, że pobieram dane z serwera
     setTimeout(() => {
       import('./mails.json').then((mailsModule) => {
         const mails = mailsModule.default;
